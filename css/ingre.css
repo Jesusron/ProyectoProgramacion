@@ -1,0 +1,135 @@
+*{ 
+font-family: 'Roboto Condensed', sans-serif;
+        font-size: 19.6px; 
+        color: white;
+    margin: 0;}
+
+body{
+    margin: 0;
+	background: linear-gradient(177deg, #fcfcfcc9, #dedbdb); }
+
+
+
+
+.bienvenida{   
+    color: black;
+    font-size: x-large; }
+
+
+.exit{   
+    margin: 1px 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 46px;
+    height: 44px;
+    flex-wrap: wrap; }
+
+.bienv{     
+    height: 64px;
+    border-radius: 38px;
+    margin-top: 1px; }
+
+form:nth-child(n) {
+     position: absolute;
+        border-radius: 4px;
+    background-color: rgb(32 35 37); 
+	padding: 2.2rem; 
+   height: 26.8rem;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 567px;
+    animation: slideUp 1s ease;
+    position: absolute; 
+    box-shadow: 0px 0px 11px 2px #979797; }
+
+
+
+	  @keyframes slideUp {
+            0% {
+                transform: translate(-50%, 100%);
+            }
+            100% {
+                transform: translate(-50%, -50%);
+            }
+        }   
+
+label{ 
+color: white;
+display: flex;
+font-size: 1.16rem; 
+font-style: italic; } 
+
+
+form label{
+     display: flex;
+    justify-content: center;
+    margin-bottom: 8px; }
+
+
+
+.cont-form { 
+ display: flex;
+    margin: 15px 15px;
+    position: relative;
+    height: 100vh;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+
+.inp{  height: 2.6rem;
+    background: #a7f1d800;
+    border: none 1px;
+    border-bottom-width: 2px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    color: white;
+    font-size: 1rem;
+     width: 100vw;}
+  
+
+.inp:focus{ outline: none;  }
+
+.inp::placeholder{ font-size: 1rem; color: white; }
+
+
+.is2{
+    height: 2.6rem;
+    font-size: 1.1rem;
+    color: black;
+    border: none;
+    border-radius: 8px; }
+
+
+.casilla{      
+     display: flex;
+    padding-bottom: 1.2rem;
+    flex-direction: row;
+    margin-bottom: 31px;
+    align-items: center;
+   width: 39vw; }
+
+.casilla img{ 
+
+    margin-left: 8px;
+    margin-right: 10px;
+    width: 40px; }
+
+    .casilla-3{display: flex;
+    justify-content: center;
+    padding: 5px;
+    align-items: stretch;
+    flex-direction: column; }
+
+    p {
+
+    font-size: .85rem;
+    margin: 9px; }
+
+
+

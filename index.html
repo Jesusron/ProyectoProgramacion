@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="Galeria/pest.png">
+	<link rel="stylesheet" type="text/css" href="css/ind.css">
+	<title> Guitarra Ideal </title>
+</head>
+<body>
+<!-- Esta seccion se organizan todas las etiquetas que conforman la cabecera del sitio web mediante una etiqueta <header> seguido de un <div> que encierra lo que vendria siendo el logo encerrado en una etiqueta <a> , el buscador(el cual es un <input> tipo search dentro de un <div>) y una etiqueta <nav>-->
+<header>
+
+<div class="cabecera">
+
+	 <a href="index.html" class="cont-lg"><img src="Galeria/lg.png" class="logo" ></a> 
+	
+	<div class="barranav">
+
+	</div>
+	
+
+<nav><!--Esta etiqueta <nav> contiene dentro de si una lista desordenada donde se encuentran tanto el acceso al formulario como un acceso rapido a las varias clasificasiones de guitarras de nuestro sitio web-->
+      <ul>
+   
+        <li>
+        <a href="ingresar.php" class="acc">Entrar</a></li>
+
+        <li class="submenu"> <a href="">Guitarras</a>
+          <ul class="hijos">
+            <li><a href="acustica.html">Guitarras Acusticas </a></li>
+            <li><a href="clasica.html">Guitarras Clasicas</a></li>
+            <li><a href="electrica.html">Guitarras Electricas</a></li> 
+          </ul>
+        </li>
+
+ <li> <a href="Form-contacto.html"> Contacto</a>  </li>
+        </ul>
+  </nav>	 
+</div>
+
+</header>
+
+<section> 
+	<div class="bloque-s"><!--Luego tenemos la seccion del slider el cual esta formado por un primer div con la clase bloque-s el cual contiene el un titulo de Bienvenida y el slider con cuatro frases de guitarristas famosos  -->
+ <h1>Bienvenido a Guitarra Ideal</h1>
+
+
+<div class="content-slider">
+  <div class="slider">
+    <div class="mask">
+      <ul><!-- En esta lista desordenada se organizan las cuatro frases de diferentes guitarristas   -->
+
+        <li class="anim1"><!--En este elemento de lista es donde se va a efectuar la animacion del slider haciendo que se desplaze mediante el CSS -->
+
+          <div class="frase"> Una guitarra se parece mucho a la vida, se puede rasguear suavemente o se puede tocar con furia, de cualquier manera, toda la resonancia es temporal.</div>
+          <div class="autor">- Jason Edward Shiffman</div>
+
+        </li>
+        <li class="anim2"><!--En este elemento de lista es donde se va a efectuar la animacion del slider haciendo que se desplaze mediante el CSS -->
+          <div class="frase	"> Mi vida ha sido una montaña rusa, pero de alguna manera siempre he podido aterrizar de pie y seguir tocando la guitarra. </div>
+          <div class="autor">- Ace Frehley</div>
+        </li>
+        <li class="anim3"><!--En este elemento de lista es donde se va a efectuar la animacion del slider haciendo que se desplaze mediante el CSS -->
+          <div class="frase">Lo hermoso de aprender es que nadie te lo puede quitar.</div>
+          <div class="autor">-  B. B. King.</div>
+        </li>
+        <li class="anim4"><!--En este elemento de lista es donde se va a efectuar la animacion del slider haciendo que se desplaze mediante el CSS -->
+          <div class="frase">La guitarra era mi arma, mi escudo detrás del cual esconderme.</div>
+          <div class="autor">- Brian May.</div>
+        </li>
+        
+      </ul>
+    </div>  
+  </div>
+</div>
+  </div>
+
+
+
+
+<div class="banners"><!-- Este <div> de clase banners es donde se almacenan las 3 diferentes categorias de guitarras  -->
+ 
+ 	<div class="catg"> <!--En este <div> de clase catg es donde se encuentra el enlace en forma de imagen acompañado por la etiqueta <span> que direccionan al usuario a la categoria de guitarras clasicas -->
+
+ 		<a href="clasica.html" class="cont-img" id="clasica"> 
+				<img src="Galeria/cpb.jpg" alt="Guitarras Clasicas">
+					<span>Guitarras Clasicas</span>
+				
+				</a> 
+
+ 	</div> 
+
+ 	<div class="catg"> <!--En este <div> de clase catg es donde se encuentra el enlace en forma de imagen acompañado por la etiqueta <span> que direccionan al usuario a la categoria de guitarras acusticas -->
+ 		
+ 		<a href="acustica.html" class="cont-img" id="acustica">
+				 <img src="Galeria/apb.jpg" alt="Guitarras Acusticas" >
+							<span>Guitarras Acusticas</span>
+					
+					</a> 
+
+ 	</div> 
+
+ 	<div class="catg"> <!--En este <div> de clase catg es donde se encuentra el enlace en forma de imagen acompañado por la etiqueta <span> que direccionan al usuario a la categoria de guitarras electricas -->
+
+ 		<a href="electrica.html"  class="cont-img" id="electrica" >
+				 <img src="Galeria/epb.jpg" >
+						<span> Guitarras Electricas </span>
+
+			</a> 
+
+ 	</div> 
+
+
+	</div>
+	</section>
+
+
+
+
+
+
+	<footer> <span class="copy">© 2024 Copyright Guitarra Ideal.</span> <!-- Por ultimo tenemos un footer donde se encuentra una etiqueta <span> que contiene el copyright de la pagina seguido por un <div> en el cual estan las redes sociales de los creadores de la pagina por donde el usuario nos podra contactar -->
+
+  <div class="redes">
+     
+     <a href=""> <img src="Galeria/fb.png" alt="Facebook"> </a>
+     <a href=""> <img src="Galeria/insta.png" alt="Instagram"></a>
+     <a href=""> <img src="Galeria/twitt.png" alt="Twitter"></a>
+     
+
+
+  </div>
+</footer>
+</body>
+</html>
